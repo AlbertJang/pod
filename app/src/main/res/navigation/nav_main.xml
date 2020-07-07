@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_main"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="kr.co.pod.view.HomeFragment"
+        android:label="HomeFragment" />
+    <fragment
+        android:id="@+id/bookMarkFragment"
+        android:name="kr.co.pod.view.BookMarkFragment"
+        android:label="BookMarkFragment" />
+    <fragment
+        android:id="@+id/settingFragment"
+        android:name="kr.co.pod.view.SettingFragment"
+        android:label="SettingFragment" />
+</navigation>

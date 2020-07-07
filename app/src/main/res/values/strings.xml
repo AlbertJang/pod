@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">pod</string>
+
+    <string name="title_menu_first">first</string>
+    <string name="title_menu_second">second</string>
+    <string name="title_menu_third">third</string>
+</resources>
